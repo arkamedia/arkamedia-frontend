@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import MainCarousel from '../Components/MainCarousel/MainCarousel';
+// import MainCarousel from '../Components/MainCarousel/MainCarousel';
+import RegistForm from '../Components/RegistForm/RegistForm';
 
 class Home extends Component{
     render(){
@@ -14,7 +15,8 @@ class Home extends Component{
                 </form>
             </nav> */}
 
-            <MainCarousel/>            
+            {/* <MainCarousel/>       */}
+            <RegistForm/>      
             </>
         );
 
