@@ -1,0 +1,33 @@
+Breadcrumb {
+  font-display: 10px;
+  font-family: 10px;
+  background-color: aliceblue;
+  /* color: #01447e; */
+}
+
+col.Gambar1 {
+  font: outline;
+  font-display: 12px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.BREADCRUMB {
+  background: aliceblue;
+  background-color: aliceblue;
+  height: 30px;
+  margin-bottom: 30px;
+  font-size: 10px;
+  margin-left: 8px;
+}
+
+.roundedCircle {
+  margin-left: 242px;
+  margin-right: -100px;
+  margin-top: -27px;
+}
+
+.roundedCircle {
+  /* margin-right: -10px; */
+  margin-left: 190px;
+}
