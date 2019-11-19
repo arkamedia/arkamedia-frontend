@@ -1,0 +1,131 @@
+.Flashsale-header-parent-blog {
+  margin-bottom: 40px;
+}
+.act-btn {
+  background: black;
+  display: block;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.07143rem;
+  font-weight: bold;
+  border-radius: 999rem;
+  /* -webkit-border-radius: 10%; */
+  text-decoration: none;
+  transition: ease all 0.3s;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.act-btn a:hover {
+  color: white;
+}
+.act-btn:hover {
+  background: black;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  margin-bottom: 10px;
+}
+.card-tag-blog {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.card-title-blog {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #513e71;
+}
+
+.card-date-blog {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+  color: gray;
+}
+
+/* .card-tag-side {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    float: right;
+    display: inline-block;
+} */
+
+.box {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-sizing: border-box;
+  /* background: #fff; */
+  border-radius: 4px;
+  width: 600px;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); */
+  display: flex;
+}
+.box .image-box {
+  width: 110px;
+  flex: 0 0 150px;
+}
+.box-content {
+  padding-left: 0px;
+  /* border: 1px solid; */
+  width: 380px;
+  height: 103px;
+}
+
+.box-sub-content {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: -5px;
+}
+.box-title {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #513e71;
+}
+.box .image-box img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.box-content {
+  padding-left: 0px;
+}
+
+.box-date {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-top: 51px;
+  color: gray;
+}
+.second-content {
+  margin-top: 138px;
+}
+.third-content {
+  margin-top: 276px;
+}
+.box-date-third {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-top: 29px;
+  color: gray;
+}
