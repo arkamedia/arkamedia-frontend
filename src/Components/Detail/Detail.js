@@ -87,7 +87,7 @@ class Detail extends React.Component {
                       Soft Cover
                     </h5>
                     <br />
-                    <ButtonToolbar className="inline-block">
+                    {/* <ButtonToolbar className="inline-block">
                       {["left"].map(placement => (
                         <OverlayTrigger
                           key={placement}
@@ -102,7 +102,16 @@ class Detail extends React.Component {
                           <span className="roundedCircle">i</span>
                         </OverlayTrigger>
                       ))}
-                    </ButtonToolbar>
+                    </ButtonToolbar> */}
+                    <p
+                      style={{ marginLeft: "185px", marginTop: "-27px" }}
+                      data-toggle="tooltip"
+                      data-placement="left"
+                      title="Buku cetak dengan sampul fleksibel tipis. Mudah untuk
+                      dibawa bepergian."
+                    >
+                      i
+                    </p>
                     <p style={{ color: "red" }}>Rp. 125.000</p>
                   </div>
                 </div>
@@ -144,28 +153,17 @@ class Detail extends React.Component {
                     marginRight: "px"
                   }}
                 />
-                <ButtonToolbar className="inline-block">
-                  {["bottom"].map(placement => (
-                    <OverlayTrigger
-                      key={placement}
-                      placement={placement}
-                      overlay={
-                        <Tooltip id={`tooltip-${placement}`}>
-                          Biaya ganti rugi untuk barang rusak atau hilang akibat
-                          kesalahan pada proses pengiriman. Selengkapnya..
-                        </Tooltip>
-                      }
-                    >
-                      <span className="img-insurance">
-                        Tersedia Asuransi Pengiriman
-                      </span>
-
-                      {/* <Button variant="secondary">
-                        Tooltip on {placement}
-                      </Button> */}
-                    </OverlayTrigger>
-                  ))}
-                </ButtonToolbar>
+                <p
+                  // style={{ marginLeft: "185px", marginTop: "-27px" }}
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Biaya ganti rugi untuk barang rusak atau hilang akibat
+                      kesalahan pada proses pengiriman. Selengkapnya..."
+                >
+                  <span className="img-insurance">
+                    Tersedia Asuransi Pengiriman
+                  </span>
+                </p>
               </div>
             </div>
           </div>
