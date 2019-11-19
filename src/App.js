@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+// import FlashSale from "./Components/Flash_Sale/FlashSale";
+import { BookPopular } from "./Components/Book_Popular/Book_Popular";
 
 const App = () => {
-	return (
-		<div>
-			<h1>Hello World</h1>
-		</div>
-	);
+  return (
+    <div>
+      {/* <FlashSale /> */}
+      <BookPopular />
+    </div>
+  );
 };
 
 export default App;
