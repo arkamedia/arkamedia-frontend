@@ -1,0 +1,86 @@
+h3 {
+  font-family: "Vesper Libre", serif;
+  font-size: 32px;
+  line-height: 38px;
+  color: #463e85;
+}
+
+.Book-header-parent {
+  margin-bottom: 10px;
+}
+.detail {
+  margin-left: 40px;
+}
+
+.book-sub-header {
+  color: #e82864;
+  font-size: 16px;
+}
+.lihat-semua {
+  margin-top: 20px;
+}
+.image-side {
+  width: 204px;
+  height: 409px;
+}
+
+.card {
+  width: 152px;
+  height: 409px;
+  /* margin-top: 0; */
+  /* margin-left: 30px !important; */
+}
+.card img {
+  padding: 5px;
+  height: 221px;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 8px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  text-overflow: ellipsis;
+  list-style: none;
+  padding: 0;
+  display: block;
+  /* border-bottom: 1px dotted #ccc; */
+  padding: 8px 0;
+  overflow: hidden;
+  height: 45px;
+}
+
+.card-author {
+  font-size: 12px;
+  line-height: 18px;
+  color: #4d4e4c;
+}
+.card-price {
+  font-size: 12px;
+  line-height: 13px;
+  color: #959595;
+  font-style: italic;
+  text-decoration: line-through;
+}
+.discount {
+  text-decoration: none !important;
+}
+
+.badge-primary {
+  color: #281e5a;
+  background-color: rgba(106, 144, 80, 0.17);
+  font-size: 14px;
+  line-height: 13px;
+}
+
+.price-result {
+  color: #e61e64;
+  font-size: 14px;
+  line-height: 13px;
+}
+.card-popular {
+  margin-right: 22px !important;
+}
