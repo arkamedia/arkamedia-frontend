@@ -79,7 +79,7 @@ class Detail extends React.Component {
               </div>
               <div className="col">
                 <div
-                  className="card border-primary mb-3"
+                  className=" border-primary mb-3"
                   style={{ width: "15rem" }}
                 >
                   <div className="card-header">
@@ -103,49 +103,26 @@ class Detail extends React.Component {
                         </OverlayTrigger>
                       ))}
                     </ButtonToolbar> */}
-                    <p
-                      style={{ marginLeft: "185px", marginTop: "-27px" }}
+                    <h6
+                      className="img-insurance"
+                      // className="tooltip"
                       data-toggle="tooltip"
                       data-placement="left"
                       title="Buku cetak dengan sampul fleksibel tipis. Mudah untuk
                       dibawa bepergian."
                     >
                       i
-                    </p>
-                    <p style={{ color: "red" }}>Rp. 125.000</p>
+                    </h6>
+                    {/* <span className="tooltip">i</span> */}
+                    <p className="harga">Rp. 125.000</p>
                   </div>
                 </div>
-                <button
-                  variant="primary"
-                  style={{
-                    width: "100%",
-                    backgroundColor: "#281e5a",
-                    borderRadius: "3px",
-                    border: "none",
-                    color: "#fff",
-                    fontFamily: "Karla",
-                    fontSize: "16px",
-                    padding: "10px 0",
-                    marginRight: "10px"
-                  }}
-                >
+                <button className="belisekarang" variant="primary">
                   BELI SEKARANG
                 </button>
                 <br />
                 <br />
-                <button
-                  variant="secondary"
-                  style={{
-                    width: "100%",
-                    borderRadius: "3px",
-                    border: "none",
-                    fontFamily: "Karla",
-                    fontSize: "16px",
-                    padding: "10px 0",
-                    marginRight: "10px",
-                    color: "#fff"
-                  }}
-                >
+                <button className="tambahwishlist" variant="secondary">
                   TAMBAH WISHLIST
                 </button>
                 <hr
