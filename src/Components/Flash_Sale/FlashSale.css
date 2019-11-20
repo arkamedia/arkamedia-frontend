@@ -1,8 +1,13 @@
 .Flashsale-header {
   color: #513e71;
   font-size: 30px;
+
   margin-bottom: 100px;
 }
+
+  text-decoration: none;
+}
+
 .Flashsale-header-parent {
   margin-bottom: 40px;
 }
@@ -35,6 +40,12 @@
 .button-component {
   margin-top: 384px;
   margin-left: 20px;
+}
+
+
+.Flashsale-component {
+  margin-bottom: 10px;
+  margin-top: -20px;
 }
 
 .card {

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Styles/Style.css';
@@ -7,6 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import Navbar from './Components/Navbar/Navbar';
 
 ReactDOM.render(<Home />, document.getElementById('root'));
+
 
 
 // If you want your app to work offline and load faster, you can change

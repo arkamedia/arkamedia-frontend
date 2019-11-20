@@ -17,9 +17,13 @@ class FlashSale extends Component {
           <div className="Flashsale-header-parent">
             <div className="row">
               <div className="col col-sm-12 col-md-10">
+
                 <a href="!#" className="Flashsale-header">
                   Flash Sale
                 </a>
+
+           
+
               </div>
               <div className="col col-sm-12 col-md-2 lihat-semua">
                 <a href="!#" className="FlashSale-sub-header" alt="Lihat Semua">

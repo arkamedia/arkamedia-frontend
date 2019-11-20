@@ -1,0 +1,29 @@
+.containerrs {
+  width: 1020px;
+}
+.header h3 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 400;
+  color: rgba(40, 30, 90, 0.86);
+  margin-bottom: 16px;
+}
+
+.vendor-summary {
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  width: 1029px;
+  margin-bottom: 50px;
+}
+
+.vendor-summary-content img {
+  /* border: solid 1px black; */
+  height: 80px;
+  margin-left: 40px;
+}
+
+.vendor-summary-content {
+  border: 1px solid #f0f0f0;
+  width: 164px;
+  height: 83px;
+}
