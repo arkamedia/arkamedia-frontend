@@ -1,0 +1,78 @@
+.center{
+    text-align: center;
+}
+.top-one{
+    margin-top: 0.3rem;
+}
+h2{
+    margin-left: 1.5rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    color:#281e5a;
+}
+
+.button-daftar{
+    background-color: #e6e6e6;
+    color: #281e5a;
+    border:0; 
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.button-daftar:hover{
+    background-color: #e6e6e6 !important;
+}
+
+.button-daftar p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0061c3;
+}
+.form-control {
+    border: 0;
+    box-shadow: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.no-border {
+    border: 0;
+    border-bottom: 1px solid grey;
+    border-bottom-width:thin;
+    border-radius: 0px;
+    margin-bottom: 2rem;
+    /* box-shadow: none; You may want to include this as bootstrap applies these styles too */
+}
+
+.btn{
+    color:blue;
+}
+
+.btn:hover {
+    color: blue !important;
+    text-decoration: none;
+    background-color: white;
+}
+
+.btn-fb{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    margin-bottom: 1rem;
+}
+.btn-fb p{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0rem 0rem 0rem 0rem;
+    color: #0061c3;   
+}
+
+
+.btn-google{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+.btn-google p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0rem 0rem 0rem 0rem;
+    color: #0061c3;
+}
