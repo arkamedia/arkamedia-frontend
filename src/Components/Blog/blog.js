@@ -105,9 +105,6 @@ export class Blog extends Component {
                       <h5 class="box-date-third">19 November 2019</h5>
                     </div>
                   </div>
-                  <a class="btn-floating btn-lg btn-default">
-                    <i class="fas fa-bolt"></i>
-                  </a>
                 </div>
               </div>
             </div>
