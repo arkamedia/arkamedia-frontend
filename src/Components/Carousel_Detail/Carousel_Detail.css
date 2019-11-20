@@ -1,0 +1,112 @@
+.Flashsale-header {
+  color: #513e71;
+  font-size: 25px;
+  /* margin-bottom: 50px; */
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+.Flashsale-header-parent {
+  margin-bottom: 40px;
+}
+
+.FlashSale-sub-header {
+  color: #e82864;
+  font-size: 16px;
+  margin-top: -40px;
+  margin-left: 70px;
+}
+.lihat-semua {
+  margin-top: 20px;
+}
+
+.lihat-semua a:hover {
+  color: #e82864;
+  text-decoration: none;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #e61e64 !important;
+  border: none;
+  width: 150px;
+}
+.carousel-image {
+  margin-right: 100px !important;
+  left: 100px !important;
+}
+
+.button-component {
+  margin-top: 384px;
+  margin-left: 20px;
+}
+
+.Flashsale-component {
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+.card {
+  width: 10rem;
+  height: 350px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.card img {
+  padding: 5px;
+  height: 200px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: bold;
+  /* line-height: 18px; */
+  /* text-overflow: ellipsis; */
+  list-style: none;
+  padding: 0;
+  display: block;
+  /* border-bottom: 1px dotted #ccc; */
+  padding: 8px 0;
+  overflow: hidden;
+  height: 45px;
+  margin-top: -30px;
+  /* margin-left: -20px; */
+  color: #4d4e4c;
+  /* margin: 0px 0px 0px; */
+}
+
+.card-author {
+  font-size: 12px;
+  line-height: 12px;
+  color: #4d4e4c;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 10px;
+}
+
+.card-price {
+  font-size: 12px;
+  line-height: 13px;
+  color: #959595;
+  font-style: italic;
+  text-decoration: line-through;
+}
+.discount {
+  text-decoration: none !important;
+}
+
+.badge-primary {
+  color: #281e5a;
+  background-color: rgba(106, 144, 80, 0.17);
+  font-size: 14px;
+  line-height: 13px;
+}
+
+.price-result {
+  color: #e61e64;
+  font-size: 14px;
+  line-height: 13px;
+  margin-top: 30px;
+}
