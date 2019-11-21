@@ -66,13 +66,19 @@ export class ListContent extends Component {
                   </div>
                 </form>
               </div>
-              <div className="price-range">
+              <div className="Stok-range">
                 <h4>Filter Berdasarkan Stok</h4>
                 <form action="">
-                  <input type="radio" name="gender" value="male" /> Semua
+                  <input type="radio" name="gender" id="semua" value="male" />
+                  <label for="semua">&nbsp;Semua</label>
                   <br />
-                  <input type="radio" name="gender" value="female" /> Tersedia
-                  <br />
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="tersedia"
+                    value="female"
+                  />
+                  <label for="tersedia"> &nbsp;Tersedia</label>
                 </form>
               </div>
               <button className="btn btn-basic button-list-content">
