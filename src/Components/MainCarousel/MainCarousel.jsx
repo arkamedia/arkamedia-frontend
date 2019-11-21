@@ -4,7 +4,7 @@ const MainCarousel = () =>{
 
         return(
             <>
-            <div className="container" style={{marginTop:'40px'}}>
+            <div className="container" style={{marginTop:'120px'}}>
                 <div class="row">
                     <div class="col-8">
                         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">

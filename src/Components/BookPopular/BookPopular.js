@@ -1,14 +1,15 @@
 import React, { Component } from "react";
-import "./Book_Popular.css";
-export class BookPopular extends Component {
+import "./BookPopular.css";
+
+class BookPopular extends Component {
   render() {
     return (
-      <div className="book">
+      <div className="book" style={{marginTop:'40px'}}>
         <div className="container">
           <div className="Book-header-parent">
             <div className="row">
               <div className="col col-sm-12 col-md-10">
-                <h3>Buku - Buku Populer</h3>
+                <p className="header">Buku - Buku Populer</p>
               </div>
               <div className="col col-sm-12 col-md-2 lihat-semua">
                 <a href="!#" className="book-sub-header" alt="Lihat Semua">
@@ -133,3 +134,5 @@ export class BookPopular extends Component {
     );
   }
 }
+
+export default BookPopular;

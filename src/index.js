@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './Styles/Style.css';
 //import App from './App';
-import Home from './Pages/Home';
+//import Cart from './Pages/Cart/Cart'
+//import Home from './Pages/Home';
 import * as serviceWorker from './serviceWorker';
-import Navbar from './Components/Navbar/Navbar';
+import AdminDash from './Pages/AdminDash/AdminDash';
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+
+
+ReactDOM.render(<AdminDash />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change

@@ -1,26 +1,22 @@
-import React, {Component} from 'react';
-// import MainCarousel from '../Components/MainCarousel/MainCarousel';
-import RegistForm from '../Components/RegistForm/RegistForm';
+import React, { Component } from "react";
+import Navbar from "../Components/Navbar/Navbar";
+import MainCarousel from "../Components/MainCarousel/MainCarousel";
+import FlashSale from "../Components/FlashSale/FlashSale";
+import BookPopular from "../Components/BookPopular/BookPopular";
+//import PromoList from "../Components/PromoList/PromoList";
+//import RegistForm from '../Components/RegistForm/RegistForm';
 
-class Home extends Component{
-    render(){
-        return(
-            <>
-
-            {/* <nav className="navbar navbar-light bg-light">
-                <a className="navbar-brand">Navbar</a>
-                <form className="form-inline">
-                <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </nav> */}
-
-            {/* <MainCarousel/>       */}
-            <RegistForm/>      
-            </>
-        );
-
-    }
+class Home extends Component {
+  render() {
+    return (
+      <>
+        <Navbar />
+        <MainCarousel />
+        <FlashSale /> 
+        <BookPopular />
+      </>
+    );
+  }
 }
 
 export default Home;

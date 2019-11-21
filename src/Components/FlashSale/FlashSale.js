@@ -12,14 +12,14 @@ const flickityOptions = {
 class FlashSale extends Component {
   render() {
     return (
-      <div className="FlashSale">
+      <div className="FlashSale" style={{marginTop:'40px'}}>
         <div className="container">
           <div className="Flashsale-header-parent">
             <div className="row">
               <div className="col col-sm-12 col-md-10">
-                <a href="!#" className="Flashsale-header">
+                <p className="Flashsale-header">
                   Flash Sale
-                </a>
+                </p>
               </div>
               <div className="col col-sm-12 col-md-2 lihat-semua">
                 <a href="!#" className="FlashSale-sub-header" alt="Lihat Semua">
@@ -201,46 +201,6 @@ class FlashSale extends Component {
                 </div>
               </div>
             </div>
-            {/* <div className="col-md-3">
-                    <div class="card">
-                      <img
-                        src="https://cdn.gramedia.com/uploads/items/PBKCurhatStaf-1__w414_hauto.png"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">
-                          #Curhatstaf- Seni Mendengarkan Bagi Para Pemimpin
-                        </h5>
-                        <p class="card-author">Josef Bataona</p>
-                        <p class="card-price">
-                          Rp.105.000
-                          <span class="badge badge-primary">20%</span>
-                        </p>
-                        <h2 className="price-result">Rp.84.000</h2>
-                      </div>
-                    </div>
-                  </div> */}
-            {/* <div className="col-md-3">
-                    <div class="card">
-                      <img
-                        src="https://cdn.gramedia.com/uploads/items/Dunia_Dalam_Genggaman_Bung_Karno_2__w414_hauto.jpg"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">
-                          Dunia Dalam Genggaman Bung Karno 2
-                        </h5>
-                        <p class="card-author">Sigit Aris Prasetyo</p>
-                        <p class="card-price">
-                          Rp.105.000
-                          <span class="badge badge-primary">20%</span>
-                        </p>
-                        <h2 className="price-result">Rp.84.000</h2>
-                      </div>
-                    </div>
-                  </div> */}
           </div>
         </div>
       </div>

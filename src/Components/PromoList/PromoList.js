@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Image, Card } from "react-bootstrap";
+// import { Col, Row, Image, Card } from "react-bootstrap";
 import "./PromoList.css";
 
 class PromoList extends React.Component {

@@ -1,8 +1,9 @@
-h3 {
-  font-family: "Vesper Libre", serif;
-  font-size: 32px;
-  line-height: 38px;
+.header {
+  /* font-family: "Vesper Libre", serif; */
+  /* line-height: 38px; */ 
   color: #463e85;
+  font-size: 30px;
+
 }
 
 .Book-header-parent {
