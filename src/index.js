@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Styles/Style.css';
@@ -10,6 +11,7 @@ import AdminDash from './Pages/AdminDash/AdminDash';
 
 
 ReactDOM.render(<AdminDash />, document.getElementById('root'));
+
 
 
 // If you want your app to work offline and load faster, you can change

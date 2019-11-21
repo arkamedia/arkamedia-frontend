@@ -1,17 +1,20 @@
 .Flashsale-header {
   color: #513e71;
-  font-size: 30px;
-  margin-bottom: 100px;
+  font-size: 25px;
+  /* margin-bottom: 50px; */
   text-decoration: none;
+  margin-top: 25px;
 }
 
 .Flashsale-header-parent {
-  margin-bottom: 5px;
+  margin-bottom: 40px;
 }
 
 .FlashSale-sub-header {
   color: #e82864;
   font-size: 16px;
+  margin-top: -40px;
+  margin-left: 70px;
 }
 .lihat-semua {
   margin-top: 20px;
@@ -21,7 +24,14 @@
   color: #e82864;
   text-decoration: none;
 }
-
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #e61e64 !important;
+  border: none;
+  width: 150px;
+}
 .carousel-image {
   margin-right: 100px !important;
   left: 100px !important;
@@ -30,33 +40,28 @@
 .button-component {
   margin-top: 384px;
   margin-left: 20px;
-  background-color: #e61e64 !important;
-  border: none;
-  width: 150px;
 }
-
 
 .Flashsale-component {
   margin-bottom: 10px;
-  margin-top: -20px;
+  margin-top: -30px;
 }
-
 .card {
   width: 10rem;
-  height: 435px;
+  height: 350px;
   margin-top: 10px;
   margin-left: 5px;
 }
 .card img {
   padding: 5px;
-  height: 221px;
+  height: 200px;
 }
 
 .card-title {
   font-size: 14px;
   font-weight: bold;
-  line-height: 18px;
-  text-overflow: ellipsis;
+  /* line-height: 18px; */
+  /* text-overflow: ellipsis; */
   list-style: none;
   padding: 0;
   display: block;
@@ -64,7 +69,12 @@
   padding: 8px 0;
   overflow: hidden;
   height: 45px;
+  margin-top: -30px;
+  /* margin-left: -20px; */
+  color: #4d4e4c;
+  /* margin: 0px 0px 0px; */
 }
+
 .card-author {
   font-size: 12px;
   line-height: 12px;
@@ -73,7 +83,7 @@
 
 .card-body {
   flex: 1 1 auto;
-  padding: 8px;
+  padding: 10px;
 }
 
 .card-price {
@@ -98,4 +108,5 @@
   color: #e61e64;
   font-size: 14px;
   line-height: 13px;
+  margin-top: 30px;
 }

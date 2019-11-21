@@ -12,14 +12,14 @@ const flickityOptions = {
 class FlashSale extends Component {
   render() {
     return (
-      <div className="FlashSale" style={{marginTop:'40px'}}>
+      <div className="FlashSale" style={{ marginTop: "40px" }}>
         <div className="container">
           <div className="Flashsale-header-parent">
             <div className="row">
               <div className="col col-sm-12 col-md-10">
-                <p className="Flashsale-header">
+                <a href="!#" className="Flashsale-header">
                   Flash Sale
-                </p>
+                </a>
               </div>
               <div className="col col-sm-12 col-md-2 lihat-semua">
                 <a href="!#" className="FlashSale-sub-header" alt="Lihat Semua">

@@ -1,0 +1,17 @@
+.button-add-address button {
+  margin-top: 10px;
+  border-radius: 3px;
+  background-color: #281e5a;
+  padding: 10px 25px;
+  color: #fff;
+  border: 0;
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  float: right;
+}

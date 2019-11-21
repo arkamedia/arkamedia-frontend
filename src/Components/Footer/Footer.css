@@ -1,0 +1,170 @@
+.form-group mx-sm-3 mb-2 {
+  width: 100px;
+}
+
+.sr-only {
+  width: 150px;
+}
+
+.form-group mx-sm-3 mb-2 {
+  width: 10rem;
+}
+
+.form-control {
+  width: 30rem;
+}
+
+.btn btn-primary mb-2 {
+  width: 6rem;
+  background-color: "#281e5a";
+  border-radius: 3p;
+  border: none;
+  color: #fff;
+  font-family: Karla;
+}
+
+.col1 {
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: #281e5a;
+  text-transform: uppercase;
+}
+
+.row afsori {
+  height: 8rem;
+  color: #281e5a;
+  background: #f0f0f0;
+  margin-top: 3px;
+}
+
+.colom1 {
+  font-size: 14px;
+  margin-top: 22px;
+}
+.colom2 {
+  font-size: 14px;
+  margin-top: 22px;
+}
+.colom3 {
+  font-size: 14px;
+  margin-top: 22px;
+}
+.colom4 {
+  font-size: 14px;
+  margin-top: 22px;
+}
+.colom5 {
+  font-size: 14px;
+  margin-top: 22px;
+}
+
+.paragraf {
+  /* color: rgba(0, 0, 0, 0.54);
+  font-size: 15px; */
+  display: block;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+  line-height: 2.5;
+  font-size: 14px;
+  font-family: Karla, sans-serif;
+  /* margin-top: 10px; */
+}
+
+.paragraf1 {
+  /* color: rgba(0, 0, 0, 0.54);
+    font-size: 15px; */
+  display: block;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+  line-height: 2.5;
+  font-size: 14px;
+  font-family: Karla, sans-serif;
+  margin-top: 18px;
+}
+
+.colom1 {
+  margin-left: 15px;
+}
+
+.paragraf1 {
+  margin-left: 15px;
+}
+.paragraf {
+  margin-left: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+  line-height: 2.5;
+  font-size: 14px;
+  font-family: Karla, sans-serif;
+}
+
+.parag {
+  /* margin-left: 15px; */
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+  line-height: 2.5;
+  font-size: 14px;
+  font-family: Karla, sans-serif;
+}
+.paragraf2 {
+  display: block;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+  line-height: 2.5;
+  font-size: 14px;
+  font-family: Karla, sans-serif;
+  margin-top: 18px;
+}
+
+.gambar1 {
+  width: 45px;
+  padding: 3px;
+}
+
+.gambar2 {
+  width: 45px;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+.gambar3 {
+  width: 45px;
+  padding: 5px;
+}
+
+.colom6 {
+  margin-top: 28px;
+}
+
+.app1 {
+  width: 150px;
+  height: 40px;
+  /* padding: 2px; */
+  margin-top: 6px;
+}
+
+.app2 {
+  width: 150px;
+  height: 40px;
+  /* padding: 2px; */
+  margin-top: 12px;
+}
+
+#copyright {
+  color: #ffffff;
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 14px;
+  font-family: Karla, sans-serif;
+  margin-top: 6px;
+  padding: 8px 0 px;
+  margin-left: 35rem;
+}
