@@ -49,7 +49,7 @@ export class ListContent extends Component {
                     <label for="minimum">Minimum</label>
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-controls"
                       id="minimum"
                       aria-describedby="emailHelp"
                       placeholder="0"
@@ -59,7 +59,7 @@ export class ListContent extends Component {
                     <label for="maximum">Maximum</label>
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-controls"
                       id="maximum"
                       placeholder="500.000"
                     />

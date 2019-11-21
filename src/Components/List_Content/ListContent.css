@@ -144,7 +144,7 @@
   line-height: 17px;
   font-weight: 400;
   color: #b4b4b4;
-  outline: none !important;
+  /* outline: none !important; */
 }
 
 .form-control:focus {
@@ -159,7 +159,8 @@
 
 .button-list-content,
 .button-list-content:focus,
-.button-list-content:hover {
+.button-list-content:hover,
+.button-list-content:visited {
   width: 104px;
   height: 36px;
   border-radius: 3px;

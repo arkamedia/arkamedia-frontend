@@ -63,11 +63,11 @@ export class Biodata extends Component {
                 </div>
                 <form>
                   <div id="frame">
-                    <div class="form-group">
+                    <div class="form-group form-grip">
                       <input type="text" name="nama" required />
                       <label>Nama Lengkap</label>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group form-grip">
                       <input type="text" name="email" required />
                       <label>Email</label>
                       <span className="email-verifikasi">
