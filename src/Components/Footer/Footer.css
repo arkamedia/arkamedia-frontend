@@ -32,56 +32,72 @@
   text-transform: uppercase;
 }
 
-.footer-row  {
+.h5 {
+  margin-left: 17px;
+}
+.footer-row {
   height: 8rem;
   color: #281e5a;
   background: #f0f0f0;
-  margin-top: 3px;
+  margin-left: -24px;
 }
+
+/* .footer {
+  height: 8rem;
+  color: #281e5a;
+  background: #f0f0f0;
+} */
 
 .colom1 {
   font-size: 14px;
-  margin-top: 22px;
+  margin-right: 168px;
 }
 .colom2 {
   font-size: 14px;
-  margin-top: 22px;
+  margin-right: 180px;
 }
 .colom3 {
   font-size: 14px;
-  margin-top: 22px;
+  /* margin-top: 22px; */
+  margin-right: 180px;
 }
 .colom4 {
   font-size: 14px;
-  margin-top: 22px;
+  margin-right: 183px;
+
+  /* margin-top: 22px; */
 }
 .colom5 {
   font-size: 14px;
-  margin-top: 22px;
+  margin-top: 2px;
+  margin-right: 175px;
+  display: inline-block;
+  text-align: right;
+
+  width: 20px;
+}
+
+.appkami {
+  margin-top: 10px;
 }
 
 .paragraf {
-  /* color: rgba(0, 0, 0, 0.54);
-  font-size: 15px; */
   display: block;
   color: rgba(0, 0, 0, 0.54);
   text-decoration: none;
   line-height: 2.5;
   font-size: 14px;
   font-family: Karla, sans-serif;
-  /* margin-top: 10px; */
 }
 
 .paragraf1 {
-  /* color: rgba(0, 0, 0, 0.54);
-    font-size: 15px; */
   display: block;
   color: rgba(0, 0, 0, 0.54);
   text-decoration: none;
   line-height: 2.5;
   font-size: 14px;
   font-family: Karla, sans-serif;
-  margin-top: 18px;
+  margin-top: 50px;
 }
 
 .colom1 {
@@ -104,7 +120,6 @@
 }
 
 .parag {
-  /* margin-left: 15px; */
   text-decoration: none;
   cursor: pointer;
   display: block;
@@ -121,41 +136,53 @@
   line-height: 2.5;
   font-size: 14px;
   font-family: Karla, sans-serif;
-  margin-top: 18px;
+  margin-top: 50px;
 }
 
 .gambar1 {
-  width: 50%;
+  height: 45px;
+  width: 45px;
   padding: 3px;
+  margin-top: 50px;
 }
 
 .gambar2 {
-  width: 45px;
-  padding: 3px;
-  margin-top: 10px;
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  margin-top: -50px;
+  margin-left: -2px;
+}
+
+.bca {
+  margin-top: 50px;
+  /* height: 40px; */
+}
+.pengiriman {
+  margin-top: 40px;
 }
 
 .gambar3 {
   width: 45px;
   padding: 3px;
-  margin-top: 10px;
+  /* margin-top: 80px; */
+  margin-right: 20px;
 }
 
 .colom6 {
-  margin-top: 28px;
+  margin-top: 145px;
+  margin-right: 175px;
 }
 
 .app1 {
   width: 150px;
   height: 40px;
-  /* padding: 2px; */
-  margin-top: 6px;
+  margin-top: 27px;
 }
 
 .app2 {
   width: 150px;
   height: 40px;
-  /* padding: 2px; */
   margin-top: 12px;
 }
 
@@ -165,7 +192,9 @@
   word-wrap: break-word;
   font-size: 14px;
   font-family: Karla, sans-serif;
+  box-sizing: border-box;
   margin-top: 6px;
   padding: 8px 0 px;
   margin-left: 35rem;
+  margin-bottom: 0px;
 }
