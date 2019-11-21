@@ -190,6 +190,13 @@ h6 {
   box-sizing: border-box;
 }
 
+.heading6 {
+  margin-left: 20px;
+}
+
+.container {
+  margin-left: 20px;
+}
 /* .face {
   height: 10rem;
 } */

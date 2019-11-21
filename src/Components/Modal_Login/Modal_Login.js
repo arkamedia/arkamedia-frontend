@@ -5,7 +5,7 @@ function Modal_Login() {
   return (
     <div>
       <div className="btn-group">
-        <button
+        {/* <button
           type="button"
           className="btn btn-secondary dropdown-toggle"
           data-toggle="dropdown"
@@ -13,7 +13,15 @@ function Modal_Login() {
           aria-expanded="false"
         >
           Klik Untuk Masuk
-        </button>
+        </button> */}
+        <div
+          className="container"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <h6 className="heading6">Klik Untuk Masuk</h6>
+        </div>
 
         <div className="dropdown-menu dropdown-menu-right">
           <form className="formu">
