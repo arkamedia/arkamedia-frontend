@@ -182,33 +182,29 @@ export class Biodata extends Component {
                             &nbsp;<label for="h">Keterampilan</label>
                           </td>
                           <td>
-                            <input
-                              type="checkbox"
-                              name="name1"
-                              value="Koleksi"
-                            />
-                            &nbsp;Koleksi
+                            <input type="checkbox" name="name1" id="i" />
+                            &nbsp;<label for="i">Koleksi</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Belanja
+                            <input type="checkbox" id="j" name="name1" />
+                            &nbsp;<label for="j">Belanja</label>
                           </td>
 
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Olahraga
+                            <input type="checkbox" id="k" name="name1" />
+                            &nbsp;<label for="k">Olahraga</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Fashion
+                            <input type="checkbox" id="l" name="name1" />
+                            &nbsp;<label for="l">Fashion</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Kuliner
+                            <input type="checkbox" id="m" name="name1" />
+                            &nbsp;<label for="m">Kuliner</label>
                           </td>
                         </tr>
                       </tbody>
