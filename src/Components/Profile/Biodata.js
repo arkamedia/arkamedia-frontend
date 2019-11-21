@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./Profile.css";
+import "./Biodata.css";
 
-export class Profile extends Component {
+export class Biodata extends Component {
   render() {
     return (
       <div className="container">
@@ -11,7 +11,7 @@ export class Profile extends Component {
               <a href="#">Home</a>
             </li>
             <li class="breadcrumb-item active" aria-current="page">
-              Library
+              My-account
             </li>
           </ol>
         </nav>
@@ -21,8 +21,10 @@ export class Profile extends Component {
               <li>
                 <a href="#">Pesanan Saya</a>
               </li>
-              <li class="active">
-                <a href="#">Akun Saya</a>
+              <li>
+                <a class="active" href="#">
+                  Akun Saya
+                </a>
               </li>
               <li>
                 <a href="#">Wishlist Saya</a>

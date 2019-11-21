@@ -24,14 +24,7 @@
   color: #e82864;
   text-decoration: none;
 }
-.btn-primary,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited {
-  background-color: #e61e64 !important;
-  border: none;
-  width: 150px;
-}
+
 .carousel-image {
   margin-right: 100px !important;
   left: 100px !important;
@@ -40,6 +33,9 @@
 .button-component {
   margin-top: 384px;
   margin-left: 20px;
+  background-color: #e61e64 !important;
+  border: none;
+  width: 150px;
 }
 
 

@@ -61,6 +61,11 @@
   text-decoration: none;
   color: #e61e64;
 }
+
+.side-menu-profile li a:active {
+  text-decoration: none;
+  color: #e61e64;
+}
 .subscriber h3 {
   color: #011a5c;
   font-family: Karla;
@@ -202,6 +207,9 @@ input[type="date"] {
   margin-top: 25px;
 }
 
+.form-profile > button {
+  background-color: #281e5a !important;
+}
 .change-password {
   margin-bottom: 100px;
 }
