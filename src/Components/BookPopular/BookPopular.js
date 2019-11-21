@@ -4,7 +4,8 @@ import "./BookPopular.css";
 class BookPopular extends Component {
   render() {
     return (
-      <div className="book" style={{marginTop:'40px'}}>
+      <div className="book" style={{marginTop:'40px', marginRight: '-1px'
+    }}>
         <div className="container">
           <div className="Book-header-parent">
             <div className="row">
@@ -125,6 +126,7 @@ class BookPopular extends Component {
                       </div>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>

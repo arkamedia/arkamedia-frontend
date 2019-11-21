@@ -6,14 +6,14 @@ const Cards = () => {
   return (
     <>
       <div className="col-3 my-card">
-        <div className="card">
+        <div className="admin-card card">
           <img
             src="https://cdn.gramedia.com/uploads/images/1/43192/image_highres/ID_EE2018MTH07EE__w414_hauto.jpg"
             className="card-img-top"
             alt="..."
           />
           <div className="card-body mx-auto">
-            <h5 className="card-title">Eleven eleven</h5>
+            <h5 className="card-title">Eleven eleven Eleven</h5>
             <div className="row">
               <div className="col-6">
                 <p className="card-text">
@@ -23,7 +23,7 @@ const Cards = () => {
                     data-target="#EditModalLong"
                   >
                     {" "}
-                    <a href="#!">Update</a>{" "}
+                    <a href="#!">Edit</a>{" "}
                   </small>
                 </p>
               </div>

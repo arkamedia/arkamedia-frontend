@@ -1,29 +1,21 @@
 import React from "react";
-// import FlashSale from "./Components/Flash_Sale/FlashSale";
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 
-import { BookPopular } from "./Components/Book_Popular/Book_Popular";
-
-// import { BookPopular } from "./Components/Book_Popular/Book_Popular";
-// import { Choicebrand } from "./Components/Choice_Brand/Choice_Brand";
-// import { EditorChoice } from "./Components/Editor_Choice/EditorChoice";
-// import { Blog } from "./Components/Blog/blog";
-import { Profile } from "./Components/Profile/Profile";
-
+import Home from '../src/Pages/Home';
+import AdminDash from '../src/Pages/AdminDash/AdminDash';
+import Cart from '../src/Pages/Cart/Cart';
+import Detail from '../src/Pages/Detail/Detail';
 
 const App = () => {
   return (
-    <div>
-
-      {/* <FlashSale /> */}
-      <BookPopular />
-
-      {/* <FlashSale />
-      <Choicebrand />
-      <EditorChoice /> */}
-      {/* <Blog /> */}
-      <Profile />
-
-    </div>
+    <>
+    <Router>
+      <Route exact path='/' component={Home}/>
+      <Route path='/admindash' component={AdminDash}/>
+      <Route path='/cart' component={Cart}/>
+      <Route path='/detail' component={Detail}/>
+    </Router>
+    </>
   );
 };
 

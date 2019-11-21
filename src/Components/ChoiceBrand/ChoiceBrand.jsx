@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import "./Choice_Brand.css";
+import "./ChoiceBrand.css";
 
-export class Choicebrand extends Component {
+class ChoiceBrand extends Component {
   render() {
     return (
+      <>
+      <div style={{marginTop:'40px'}}>
       <div className="container">
         <div className="header">
           <h3>Brand Pilihan</h3>
@@ -73,6 +75,9 @@ export class Choicebrand extends Component {
           </div>
         </div>
       </div>
+      </div>
+      </>
     );
   }
 }
+export default ChoiceBrand;

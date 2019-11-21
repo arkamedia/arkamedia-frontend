@@ -4,3 +4,9 @@
     box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 
 }
+.my-badge{
+    position: fixed;
+    z-index: 9999;
+    margin-left: 49px;
+    margin-top: -6px;
+}

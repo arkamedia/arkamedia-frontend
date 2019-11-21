@@ -41,8 +41,8 @@ const AddModal = () => {
                 <label htmlFor="cat_name">Select Category</label>
                 <select className="form-control" name="cat_name" id="cat_name">
                     <option value="Book">Book</option>
-                    <option value="Stationary">Stationary</option>
-                    <option value="Other">Others</option>
+                    <option value="Stationery">Stationery</option>
+                    <option value="Others">Others</option>
                 </select>
                 <br/>
                 <label htmlFor="quantity">Quantity</label>

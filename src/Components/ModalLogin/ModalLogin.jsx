@@ -1,26 +1,26 @@
 import React from "react";
 import "./Modal_Login.css";
 
-function Modal_Login() {
+const ModalLogin = () => {
   return (
     <div>
       <div className="btn-group">
-        {/* <button
-          type="button"
-          className="btn btn-secondary dropdown-toggle"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Klik Untuk Masuk
-        </button> */}
+    
         <div
           className="container"
           data-toggle="dropdown"
           aria-haspopup="true"
           aria-expanded="false"
         >
-          <h6 className="heading6">Klik Untuk Masuk</h6>
+          <a
+              href="!#"
+              style={{
+                color: "#fff",
+                fontFamily: "Karla,sans-serif"
+              }}
+            >
+              Masuk
+            </a>
         </div>
 
         <div className="dropdown-menu dropdown-menu-right">
@@ -43,7 +43,7 @@ function Modal_Login() {
               />
             </div>
           </form>
-          <a href="">
+          <a href="#!">
             <p className="lupakatasandi">Lupa Kata Sandi?</p>
           </a>
           <div>
@@ -53,7 +53,7 @@ function Modal_Login() {
           </div>
           <div className="belumdaftar">
             Belum Mendaftar?
-            <a href="" className="daftar">
+            <a href="#!" className="daftar">
               Daftar
             </a>
           </div>
@@ -67,9 +67,10 @@ function Modal_Login() {
             <img
               className="gambar1"
               src="https://res.cloudinary.com/afsori/image/upload/v1574059472/Arkamedia/facebook_dks2xz.png"
+              alt="file is loading"
             ></img>
             <div>
-              <a href="">
+              <a href="#!">
                 <p className="masukfacebook">Masuk Dengan Facebook</p>
               </a>
             </div>
@@ -78,9 +79,10 @@ function Modal_Login() {
             <img
               className="gambar2"
               src="https://res.cloudinary.com/afsori/image/upload/v1574326813/Arkamedia/google_p8df8o.png"
+              alt="file is loading"
             ></img>
             <div>
-              <a href="">
+              <a href="#!">
                 <p className="masukgoogle">Masuk Dengan Google</p>
               </a>
             </div>
@@ -90,4 +92,4 @@ function Modal_Login() {
     </div>
   );
 }
-export default Modal_Login;
+export default ModalLogin;

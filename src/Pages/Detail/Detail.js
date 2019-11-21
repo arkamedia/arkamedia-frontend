@@ -1,5 +1,4 @@
 import React from "react";
-import { OverlayTrigger, ButtonToolbar, Tooltip } from "react-bootstrap";
 import "./Detail.css";
 
 class Detail extends React.Component {
@@ -11,16 +10,16 @@ class Detail extends React.Component {
             <nav aria-label="breadcrumb" className="BREADCRUMB">
               <ol className="breadcrumb p-3 mb-2 bg-white text-dark">
                 <li className="breadcrumb-item">
-                  <a href="#">Home</a>
+                  <a href="#!">Home</a>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#">Buku</a>
+                  <a href="#!">Buku</a>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#">Sejarah</a>
+                  <a href="#!">Sejarah</a>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#">Novel</a>
+                  <a href="#!">Novel</a>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
                   All The Light We Cannot See
@@ -39,6 +38,7 @@ class Detail extends React.Component {
                   }}
                   src="https://cdn.gramedia.com/uploads/items/9786230008146_All_The_Light_We_Cannot_See__w414_hauto.jpg"
                   className="gambar1"
+                  alt="file is loading"
                 />
                 <p style={{ marginLeft: "6px" }}>
                   Bagikan Ke :
@@ -50,6 +50,7 @@ class Detail extends React.Component {
                       marginBottom: "10px",
                       marginLeft: "5px"
                     }}
+                    alt="file is loading"
                   />
                   <img
                     href=""
@@ -59,6 +60,7 @@ class Detail extends React.Component {
                       marginBottom: "10px",
                       marginLeft: "5px"
                     }}
+                    alt="file is loading"
                   />
                   <img
                     href=""
@@ -68,6 +70,7 @@ class Detail extends React.Component {
                       marginBottom: "10px",
                       marginLeft: "5px"
                     }}
+                    alt="file is loading"
                   />
                 </p>
               </div>

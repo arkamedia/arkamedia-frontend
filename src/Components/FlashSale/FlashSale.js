@@ -12,12 +12,12 @@ const flickityOptions = {
 class FlashSale extends Component {
   render() {
     return (
-      <div className="FlashSale" style={{ marginTop: "40px" }}>
+      <div className="FlashSale" >
         <div className="container">
-          <div className="Flashsale-header-parent">
-            <div className="row">
+          <div className="Flashsale-header-parent" >
+            <div className="row" style={{paddingBottom: '30px'}} >
               <div className="col col-sm-12 col-md-10">
-                <a href="!#" className="Flashsale-header">
+                <a href="!#" className="Flashsale-header" >
                   Flash Sale
                 </a>
               </div>
@@ -34,7 +34,7 @@ class FlashSale extends Component {
               backgroundImage:
                 "url(https://www.gramedia.com/flash-sale-banner-ii.e7c92cd4c6c16feb6fde.png)",
               backgroundSize: "cover",
-              width: "94%",
+              width: "100%",
               height: "454px"
               // marginLeft: "15px"
             }}

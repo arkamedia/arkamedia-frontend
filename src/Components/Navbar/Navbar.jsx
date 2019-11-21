@@ -1,4 +1,5 @@
 import React from "react";
+import ModalLogin from '../ModalLogin/ModalLogin'
 import './Navbar.css'
 
 class Navbar extends React.Component {
@@ -155,15 +156,9 @@ class Navbar extends React.Component {
                 aria-label="Search"
               />
             </form>
-            <a
-              href="!#"
-              style={{
-                color: "#fff",
-                fontFamily: "Karla,sans-serif"
-              }}
-            >
-              Masuk
-            </a>
+           
+           <ModalLogin />
+           <p><span className="badge badge-pill badge-danger my-badge">7</span></p>
             <img
               style={{
                 width: "30px",
@@ -173,6 +168,8 @@ class Navbar extends React.Component {
               src="https://res.cloudinary.com/naandalistcloud/image/upload/v1574155939/Arkamedia/shopBag_gm0zka.svg"
               alt="shoping bag still load"
             />
+            
+           
           </div>
         </nav>
       </div>

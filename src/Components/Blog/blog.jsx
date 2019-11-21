@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import "./blog.css";
 
-export class Blog extends Component {
+class Blog extends Component {
   render() {
     return (
       <div className="container">
         <div className="Flashsale-header-parent-blog">
           <div className="row">
             <div className="col col-sm-12 col-md-10">
-              <h3 href="!#" className="Flashsale-header">
+              <h3 href="#!" className="Flashsale-header">
                 Blog Gramedia
               </h3>
             </div>
             <div className="col col-sm-12 col-md-2 lihat-semua">
-              <a href="!#" className="FlashSale-sub-header" alt="Lihat Semua">
+              <a href="#!" className="FlashSale-sub-header" alt="Lihat Semua">
                 Lihat Semua
               </a>
             </div>
@@ -21,12 +21,13 @@ export class Blog extends Component {
             <div className="container">
               <div className="row">
                 <a
-                  href="#"
+                  href="#!"
                   className="act-btn"
                   style={{
                     textDecoration: "none",
                     color: "white"
                   }}
+                  alt="..."
                 >
                   <i class=" fa fa-comment"> Chat</i>
                 </a>
@@ -41,7 +42,7 @@ export class Blog extends Component {
                     </a>
                     <div class="card-body-blog">
                       <h5 class="card-tag-blog">TRIVIA</h5>
-                      <a href="" alt="..." class="card-title-blog">
+                      <a href="#!" alt="..." class="card-title-blog">
                         Masa Depan Pendidikan di Indonesia Harus Seimbang dengan
                         Teknologi
                       </a>
@@ -62,7 +63,7 @@ export class Blog extends Component {
                     </a>
                     <div class="box-content">
                       <h5 class="box-sub-content">PUTRI MARINO</h5>
-                      <a href="" alt="..." class="box-title">
+                      <a href="#!" alt="..." class="box-title">
                         Menanti Perilisan Buku Perdana Putri Marino
                       </a>
                       <h5 class="box-date">19 November 2019</h5>
@@ -80,7 +81,7 @@ export class Blog extends Component {
                     </a>
                     <div class="box-content">
                       <h5 class="box-sub-content">REKOMENDASI BUKU</h5>
-                      <a href="" alt="..." class="box-title">
+                      <a href="#!" alt="..." class="box-title">
                         8 Buku Rekomendasi November 2019
                       </a>
                       <h5 class="box-date">19 November 2019</h5>
@@ -98,7 +99,7 @@ export class Blog extends Component {
                     </a>
                     <div class="box-content">
                       <h5 class="box-sub-content">AUTHOR OF THE MONTH </h5>
-                      <a href="" alt="..." class="box-title">
+                      <a href="#!" alt="..." class="box-title">
                         AUTHOR OF THE MONTH: Regis Machdy Tertarik Psikologi
                         Sejak Baca Sheila
                       </a>
@@ -114,3 +115,4 @@ export class Blog extends Component {
     );
   }
 }
+export default Blog;

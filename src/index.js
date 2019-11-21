@@ -1,16 +1,13 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App'
+//import ModalLogin from './Components/ModalLogin/ModalLogin'
 import './Styles/Style.css';
-//import App from './App';
-//import Cart from './Pages/Cart/Cart'
-//import Home from './Pages/Home';
 import * as serviceWorker from './serviceWorker';
-import AdminDash from './Pages/AdminDash/AdminDash';
 
 
-
-ReactDOM.render(<AdminDash />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 
 
