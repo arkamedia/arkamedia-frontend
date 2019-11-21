@@ -22,7 +22,7 @@ export class ListContent extends Component {
               </li>
               <p>
                 <a
-                  class="btn btn-basic button-collapse-category dropdown-toggle"
+                  class="btn btn-basic button-collapse-category dropdown-toggle pull right"
                   data-toggle="collapse"
                   href="#multiCollapseExample1"
                   role="button"
