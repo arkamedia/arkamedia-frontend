@@ -1,0 +1,38 @@
+.dropsown-item {
+  position: fixed;
+  top: 24px;
+  right: 0;
+  left: 0;
+  background: #281e5a;
+  color: #fff;
+  z-index: 100;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.12), 0 4px 4px 0 rgba(0, 0, 0, 0.24);
+  height: 65px;
+  font-family: Karla, sans-serif;
+}
+
+.dropdown-item {
+  color: #281e5a;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 25px;
+  text-transform: uppercase;
+  text-align: left;
+  height: 45px;
+}
+
+.dropdown-item1 {
+  color: #281e5a;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 25px;
+  text-transform: uppercase;
+  text-align: left;
+  height: 45px;
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+}
