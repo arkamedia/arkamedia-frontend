@@ -7,7 +7,7 @@ import { ListContent } from "./Components/List_Content/ListContent";
 // import { Blog } from "./Components/Blog/blog";
 import { Biodata } from "./Components/Profile/Biodata";
 
-const App = () => {
+const Test = () => {
   return (
     <div>
       {/* <FlashSale />
@@ -20,4 +20,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Test;
