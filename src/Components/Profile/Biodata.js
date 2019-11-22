@@ -63,11 +63,11 @@ export class Biodata extends Component {
                 </div>
                 <form>
                   <div id="frame">
-                    <div class="form-group">
+                    <div class="form-group form-grip">
                       <input type="text" name="nama" required />
                       <label>Nama Lengkap</label>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group form-grip">
                       <input type="text" name="email" required />
                       <label>Email</label>
                       <span className="email-verifikasi">
@@ -143,72 +143,68 @@ export class Biodata extends Component {
                       <tbody>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Kecantikan
+                            <input type="checkbox" id="a" name="name1" />
+                            &nbsp;<label for="a">Kecantikan</label>
                           </td>
 
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Otomotif
+                            <input type="checkbox" id="b" name="name1" />
+                            &nbsp;<label for="b">Otomotif</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Membaca
+                            <input type="checkbox" id="c" name="name1" />
+                            &nbsp;<label for="c">Membaca</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Berkebun
+                            <input type="checkbox" id="d" name="name1" />
+                            &nbsp;<label for="d">Berkebun</label>
                           </td>
 
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Seni
+                            <input type="checkbox" id="e" name="name1" />
+                            &nbsp;<label for="e">Seni</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Teknologi
+                            <input type="checkbox" id="f" name="name1" />
+                            &nbsp;<label for="f">Teknologi</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Wisata
+                            <input type="checkbox" id="g" name="name1" />
+                            &nbsp;<label for="g">Wisata</label>
                           </td>
 
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Keterampilan
+                            <input type="checkbox" id="h" name="name1" />
+                            &nbsp;<label for="h">Keterampilan</label>
                           </td>
                           <td>
-                            <input
-                              type="checkbox"
-                              name="name1"
-                              value="Koleksi"
-                            />
-                            &nbsp;Koleksi
+                            <input type="checkbox" name="name1" id="i" />
+                            &nbsp;<label for="i">Koleksi</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Belanja
+                            <input type="checkbox" id="j" name="name1" />
+                            &nbsp;<label for="j">Belanja</label>
                           </td>
 
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Olahraga
+                            <input type="checkbox" id="k" name="name1" />
+                            &nbsp;<label for="k">Olahraga</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Fashion
+                            <input type="checkbox" id="l" name="name1" />
+                            &nbsp;<label for="l">Fashion</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Kuliner
+                            <input type="checkbox" id="m" name="name1" />
+                            &nbsp;<label for="m">Kuliner</label>
                           </td>
                         </tr>
                       </tbody>
@@ -220,122 +216,120 @@ export class Biodata extends Component {
                       <tbody>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Agama & Spritualitas
+                            <input type="checkbox" id="1" name="name1" />
+                            &nbsp;<label for="1">Agama & Spritualitas</label>
                           </td>
 
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Biografi
+                            <input type="checkbox" id="2" name="name1" />
+                            &nbsp;<label for="2">Biografi</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Bisnis & Ekonomi
+                            <input type="checkbox" id="3" name="name1" />
+                            &nbsp;<label for="3">Bisnis & Ekonomi</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Buku Anak
+                            <input type="checkbox" id="4" name="name1" />
+                            &nbsp;<label for="4">Buku Anak</label>
                           </td>
 
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Buku Pelajaran
+                            <input type="checkbox" id="5" name="name1" />
+                            &nbsp;<label for="5">Buku Pelajaran</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Diet & Kesehatan
+                            <input type="checkbox" id="6" name="name1" />
+                            &nbsp;<label for="6">Diet & Kesehatan</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Fiksi
+                            <input type="checkbox" id="7" name="name1" />
+                            &nbsp;<label for="7">Fiksi</label>
                           </td>
 
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Huku
+                            <input type="checkbox" id="8" name="name1" />
+                            &nbsp;<label for="8">Hukum</label>
                           </td>
                           <td>
-                            <input
-                              type="checkbox"
-                              name="name1"
-                              value="Koleksi"
-                            />
-                            &nbsp;Ilmu Sosial
+                            <input type="checkbox" id="9" name="name1" />
+                            &nbsp;<label for="9">Ilmu Sosial</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Kamus & Tesaurus
+                            <input type="checkbox" id="10" name="name1" />
+                            &nbsp;<label for="10"> Kamus & Tesaurus</label>
                           </td>
 
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Kerajinan & Hobi
+                            <input type="checkbox" id="11" name="name1" />
+                            &nbsp;
+                            <label for="11"> Kerajinan & Hobi</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Komputer & Teknologi
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Kuliner
-                          </td>
-                          <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Medis
-                          </td>
-                          <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Misteri & Horor
+                            <input type="checkbox" id="12" name="name1" />
+                            &nbsp;<label for="12">Komputer & Teknologi</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Orangtua & Keluarga
+                            <input type="checkbox" id="13" name="name1" />
+                            &nbsp;<label for="13">Kuliner</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Pendidikan & Pengajaran
+                            <input type="checkbox" id="14" name="name1" />
+                            &nbsp;<label for="14">Medis</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Pengembangan Diri
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Psikologi
-                          </td>
-                          <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Referensi
-                          </td>
-                          <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Sains & Alam
+                            <input type="checkbox" id="15" name="name1" />
+                            &nbsp;<label for="15">Misteri & Horor</label>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;seni & Desain
+                            <input type="checkbox" id="16" name="name1" />
+                            &nbsp;<label for="16">Orangtua & Keluarga</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Teknik
+                            <input type="checkbox" id="17" name="name1" />
+                            &nbsp;
+                            <label for="17">Pendidikan & Pengajaran</label>
                           </td>
                           <td>
-                            <input type="checkbox" name="name1" />
-                            &nbsp;Travel
+                            <input type="checkbox" id="18" name="name1" />
+                            &nbsp;<label for="18">Pengembangan Diri</label>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <input type="checkbox" id="19" name="name1" />
+                            &nbsp;<label for="19">Psikologi</label>
+                          </td>
+                          <td>
+                            <input type="checkbox" id="20" name="name1" />
+                            &nbsp;<label for="20">Referensi</label>
+                          </td>
+                          <td>
+                            <input type="checkbox" id="21" name="name1" />
+                            &nbsp;<label for="21">Sains & Alam</label>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <input type="checkbox" id="22" name="name1" />
+                            &nbsp;<label for="22">Seni & Desain</label>
+                          </td>
+                          <td>
+                            <input type="checkbox" id="23" name="name1" />
+                            &nbsp;<label for="23">Teknik</label>
+                          </td>
+                          <td>
+                            <input type="checkbox" id="24" name="name1" />
+                            &nbsp;<label for="24">Travel</label>
                           </td>
                         </tr>
                       </tbody>
