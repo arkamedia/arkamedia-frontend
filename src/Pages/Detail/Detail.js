@@ -1,32 +1,39 @@
 import React from "react";
 import "./Detail.css";
+import Navbar from '../../Components/Navbar/Navbar';
+import {getProductByID} from '../../Config/product'
+import Footer from '../../Components/Footer/Footer'
+
+import moment from 'moment'
 
 class Detail extends React.Component {
+
+  constructor(){
+    super()
+    this.state = {
+      book: []
+    }
+  }
+
+  componentDidMount(){
+    const {product_id} = this.props.location.state
+    console.log(product_id)
+    getProductByID(product_id).then(res=> {
+      this.setState({
+        book: res[0]
+      })
+    })
+  }
+
   render() {
+
+    const {book} = this.state
+
     return (
       <div>
-        <div className="container">
-          <div>
-            <nav aria-label="breadcrumb" className="BREADCRUMB">
-              <ol className="breadcrumb p-3 mb-2 bg-white text-dark">
-                <li className="breadcrumb-item">
-                  <a href="#!">Home</a>
-                </li>
-                <li className="breadcrumb-item">
-                  <a href="#!">Buku</a>
-                </li>
-                <li className="breadcrumb-item">
-                  <a href="#!">Sejarah</a>
-                </li>
-                <li className="breadcrumb-item">
-                  <a href="#!">Novel</a>
-                </li>
-                <li className="breadcrumb-item active" aria-current="page">
-                  All The Light We Cannot See
-                </li>
-              </ol>
-            </nav>
-          </div>
+        <Navbar />
+        <div className="container" style={{marginTop: '120px'}}> 
+
           <div className="container">
             <div className="row">
               <div className="col">
@@ -36,8 +43,8 @@ class Detail extends React.Component {
                     marginBottom: "10px",
                     marginLeft: "7px"
                   }}
-                  src="https://cdn.gramedia.com/uploads/items/9786230008146_All_The_Light_We_Cannot_See__w414_hauto.jpg"
-                  className="gambar1"
+                  src={book.imgurl}
+                  className="gambar1-detail"
                   alt="file is loading"
                 />
                 <p style={{ marginLeft: "6px" }}>
@@ -74,11 +81,11 @@ class Detail extends React.Component {
                   />
                 </p>
               </div>
-              <div className="col-5" style={{ marginRight: "120px" }}>
+              <div className="col-5" style={{ marginRight: "120px", marginTop: '40px' }}>
                 <h2 style={{ color: "#281e5a" }}>
-                  All The Light We Cannot See
+                  {book.product_name}
                 </h2>
-                <h5 style={{ color: "#281e5a" }}>Anthony Doerr</h5>
+                  <h5 style={{ color: "#281e5a" }}>{book.author ? book.author : '-'}</h5>
               </div>
               <div className="col">
                 <div
@@ -117,7 +124,7 @@ class Detail extends React.Component {
                       i
                     </h6>
                     {/* <span className="tooltip">i</span> */}
-                    <p className="harga">Rp. 125.000</p>
+                  <p className="harga">Rp. {book.price}</p>
                   </div>
                 </div>
                 <button className="belisekarang" variant="primary">
@@ -182,21 +189,7 @@ class Detail extends React.Component {
                   role="tabpanel"
                   aria-labelledby="nav-home-tab"
                 >
-                  Marie-Laure tinggal di Paris di dekat Museum Sejarah Nasional,
-                  tempat ayahnya bekerja. Ketika Marie-Laure berusia dua belas
-                  tahun, tentara Nazi mengambil alih Paris, memaksa ayah dan
-                  anak itu melarikan diri ke Saint-Malo, ke rumah adik-kakek
-                  Marie-Laure, Etienne. Bersama dengan kaburnya ke Saint-Malo,
-                  mereka membawa satu benda yang amat berharga, yang harus
-                  dijaga dari para Nazi. Di sebuah kota tambang di Jerman,
-                  Werner Pfenning, seorang yatim piatu, yang tumbuh besar
-                  bersama adik perempuannya. Mereka senang mendengarkan radio,
-                  yang membawakan berita dan cerita dari tempat-tempat yang
-                  belum pernah mereka dengar. Werner akhirnya menjadi ahli dalam
-                  bidang bangunan dan perbaikan instrumen lalu didaftarkan untuk
-                  melacak pemberontakan. Dengan menghubungkan kehidupan
-                  Marie-Laure dan Werner, Doerr menjelaskan bahwa bagaimanapun,
-                  manusia akan berusaha untuk bersikap baik kepada sesama.
+                  {book.description}
                 </div>
                 <div
                   className="tab-pane fade"
@@ -210,41 +203,41 @@ class Detail extends React.Component {
                 >
                   <p>
                     Jumlah Halaman &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; 576.0 }
+                    &nbsp; &nbsp; &nbsp; {book.pages}
                   </p>
                   <p>
                     Tanggal Terbit &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4 Nov 2019
+                    &nbsp; &nbsp; &nbsp; &nbsp; { book.publish_date }
                   </p>
                   <p>
                     ISBN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;9786230008146
+                    &nbsp; &nbsp; &nbsp; {book.ISBN}
                   </p>
                   <p>
                     Bahasa &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; Indonesia
+                    &nbsp; Indonesia
                   </p>
                   <p>
                     Penerbit &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp;Elex Media Komputindo
+                    &nbsp;{book.publisher}
                   </p>
                   <p>
                     Berat &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; 0.45 kg
+                    &nbsp; &nbsp; &nbsp; {book.weight} kg
                   </p>
                   <p>
                     Lebar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; 13.5 cm
+                    &nbsp; &nbsp; &nbsp; {book.width} cm
                   </p>
                   <p>
                     Panjang &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp;20.0 cm
+                    &nbsp; {book.height} cm
                   </p>
                 </div>
               </div>
@@ -259,6 +252,7 @@ class Detail extends React.Component {
             background: "#f0f0f0"
           }}
         ></div>
+        <Footer />
       </div>
     );
   }

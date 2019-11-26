@@ -3,7 +3,24 @@ import './RegistForm.css';
 import FbIcon from './IconAsset/FbIcon';
 import GoogleIcon from './IconAsset/GoogleIcon';
 
-const RegistForm = () =>{
+class RegistForm extends React.Component {
+    constructor(){
+        super()
+        this.state = {
+
+        }
+    }
+
+    onClick = (event) => {
+        this.setState({})
+    }
+
+    onChange = (event) => {
+        this.setState({})
+    }
+
+    render(){
+
 
         return(
             <>
@@ -74,6 +91,8 @@ const RegistForm = () =>{
             </div>
         </>
         );
+    }
+
 }
 
 export default RegistForm;

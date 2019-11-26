@@ -1,9 +1,43 @@
 import React from "react";
 import ModalLogin from '../ModalLogin/ModalLogin'
+import ModalUser from '../ModalUser/ModalUser'
 import './Navbar.css'
+import $ from 'jquery';
+import jwt_decode from 'jwt-decode'
 
 class Navbar extends React.Component {
+
+
+  constructor() {
+    super()
+    this.state = {
+      user: []
+    }
+  }
+
+  componentDidMount() {
+    $('.dropdown-menu').click(function (event) {
+      event.stopPropagation();
+    });
+
+    if(localStorage.usertoken){
+
+      const token = localStorage.usertoken
+      const decoded = jwt_decode(token)
+  
+      this.setState({user: decoded.response})
+    }
+
+  }
+
+
+
   render() {
+
+    const { user } = this.state
+
+    console.log(user)
+
     return (
       <div>
         <nav
@@ -156,20 +190,26 @@ class Navbar extends React.Component {
                 aria-label="Search"
               />
             </form>
-           
-           <ModalLogin />
-           <p><span className="badge badge-pill badge-danger my-badge">7</span></p>
+
+            {user.length === 0 ?
+              (<ModalLogin />) :
+              (<ModalUser name={user.name} />)}
+
+            {/* <ModalLogin /> */}
+            {/* <ModalUser /> */}
+
+            <p><span className="badge badge-pill badge-danger my-badge">7</span></p>
             <img
               style={{
-                width: "30px",
+                width: "39px",
                 marginRight: "10rem",
                 marginLeft: "2rem"
               }}
-              src="https://res.cloudinary.com/naandalistcloud/image/upload/v1574155939/Arkamedia/shopBag_gm0zka.svg"
+              src="https://res.cloudinary.com/naandalistcloud/image/upload/v1574346889/Arkamedia/shopping-bag_lsspqa.svg"
               alt="shoping bag still load"
             />
-            
-           
+
+
           </div>
         </nav>
       </div>

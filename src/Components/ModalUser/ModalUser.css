@@ -33,6 +33,10 @@
 }
 
 .avatar {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.container.modal-login-container{
+  margin-left:100px ;
 }

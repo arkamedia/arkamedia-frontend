@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./ListContent.css";
 
-export class ListContent extends Component {
+class ListContent extends Component {
   render() {
     return (
       <div className="container">
@@ -46,7 +46,7 @@ export class ListContent extends Component {
                 <h4>Harga</h4>
                 <form>
                   <div class="form-group">
-                    <label for="minimum">Minimum</label>
+                    <label for="minimum">Minimum</label><br/>
                     <input
                       type="text"
                       class="form-controls"
@@ -56,7 +56,7 @@ export class ListContent extends Component {
                     />
                   </div>
                   <div class="form-group">
-                    <label for="maximum">Maximum</label>
+                    <label for="maximum">Maximum</label><br/>
                     <input
                       type="text"
                       class="form-controls"
@@ -137,7 +137,7 @@ export class ListContent extends Component {
                         Rp.105.000
                         <span class="badge badge-primary-list-main">20%</span>
                       </p>
-                      <h2 className="price-result-list-main">Rp.84.000</h2>
+                      <h3 className="price-result-list-main">Rp.84.000</h3>
                     </div>
                   </div>
                 </div>
@@ -156,7 +156,7 @@ export class ListContent extends Component {
                         Rp.105.000
                         <span class="badge badge-primary-list-main">20%</span>
                       </p>
-                      <h2 className="price-result-list-main">Rp.84.000</h2>
+                      <h3 className="price-result-list-main">Rp.84.000</h3>
                     </div>
                   </div>
                 </div>
@@ -177,7 +177,7 @@ export class ListContent extends Component {
                         Rp.105.000
                         <span class="badge badge-primary-list-main">20%</span>
                       </p>
-                      <h2 className="price-result-list-main">Rp.84.000</h2>
+                      <h3 className="price-result-list-main">Rp.84.000</h3>
                     </div>
                   </div>
                 </div>
@@ -197,7 +197,7 @@ export class ListContent extends Component {
                         Rp.105.000
                         <span class="badge badge-primary-list-main">20%</span>
                       </p>
-                      <h2 className="price-result-list-main">Rp.84.000</h2>
+                      <h3 className="price-result-list-main">Rp.84.000</h3>
                     </div>
                   </div>
                 </div>
@@ -215,7 +215,7 @@ export class ListContent extends Component {
                         Rp.105.000
                         <span class="badge badge-primary-list-main">20%</span>
                       </p>
-                      <h2 className="price-result-list-main">Rp.84.000</h2>
+                      <h3 className="price-result-list-main">Rp.84.000</h3>
                     </div>
                   </div>
                 </div>
@@ -235,12 +235,12 @@ export class ListContent extends Component {
                         Rp.105.000
                         <span class="badge badge-primary-list-main">20%</span>
                       </p>
-                      <h2 className="price-result-list-main">Rp.84.000</h2>
+                      <h3 className="price-result-list-main">Rp.84.000</h3>
                     </div>
                   </div>
                 </div>
-                <div className="col col-md-3 col-sm-12"></div>
-                <div className="col col-md-3 col-sm-12"></div>
+                {/* <div className="col col-md-3 col-sm-12"></div>
+                <div className="col col-md-3 col-sm-12"></div> */}
               </div>
             </div>
           </div>
@@ -249,3 +249,4 @@ export class ListContent extends Component {
     );
   }
 }
+export default ListContent;

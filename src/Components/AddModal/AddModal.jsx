@@ -6,7 +6,7 @@ const AddModal = () => {
   return (
     <>
       <div
-        className="modal fade"
+        className="add-modal modal fade"
         id="exampleModalLong"
         tabIndex={-1}
         role="dialog"

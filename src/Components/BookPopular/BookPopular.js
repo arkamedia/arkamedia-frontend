@@ -4,13 +4,12 @@ import "./BookPopular.css";
 class BookPopular extends Component {
   render() {
     return (
-      <div className="book" style={{marginTop:'40px', marginRight: '-1px'
-    }}>
+      <div className="book" style={{ marginTop: "40px", marginRight: "-1px" }}>
         <div className="container">
           <div className="Book-header-parent">
             <div className="row">
               <div className="col col-sm-12 col-md-10">
-                <p className="header">Buku - Buku Populer</p>
+                <p className="header">{this.props.headerTitle}</p>
               </div>
               <div className="col col-sm-12 col-md-2 lihat-semua">
                 <a href="!#" className="book-sub-header" alt="Lihat Semua">
@@ -22,7 +21,7 @@ class BookPopular extends Component {
               <div className="col col-md-2 col-sm-12 ">
                 <section className="image-side">
                   <img
-                    src="https://cdn.gramedia.com/uploads/category-list/Product_List_Banner-07__w320_hauto.jpg"
+                    src={this.props.imgBanner}
                     className="img-fluid"
                     alt="..."
                   />
@@ -30,7 +29,11 @@ class BookPopular extends Component {
               </div>
               <div className="col col-md-9 col-sm-12 detail">
                 <div className="row">
-                  <div className="col col-md-2 col-sm-12 card-popular ">
+
+          {this.props.children}
+
+
+                  {/* <div className="col col-md-2 col-sm-12 card-popular ">
                     <div class="card">
                       <img
                         src="https://cdn.gramedia.com/uploads/items/9786023948680_buku-aktivitas-si-kecil_dunia-anak__w414_hauto.jpg"
@@ -125,8 +128,7 @@ class BookPopular extends Component {
                         <h2 className="price-result">Rp.84.000</h2>
                       </div>
                     </div>
-                  </div>
-
+                  </div> */}
                 </div>
               </div>
             </div>

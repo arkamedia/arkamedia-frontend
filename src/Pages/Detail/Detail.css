@@ -63,6 +63,13 @@ h6 {
   color: #fff;
 }
 
+.gambar1-detail{
+    height: 300px;
+    width: 45px;
+    padding: 3px;
+    margin-top: 50px;
+}
+
 .tooltip {
   display: inline-grid;
   width: 17px;

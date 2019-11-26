@@ -5,15 +5,15 @@ class Blog extends Component {
   render() {
     return (
       <div className="container">
-        <div className="Flashsale-header-parent-blog">
+        <div className="Blog-header-parent-blog">
           <div className="row">
             <div className="col col-sm-12 col-md-10">
-              <h3 href="#!" className="Flashsale-header">
+              <h3 href="#!" className="Blog-header">
                 Blog Gramedia
               </h3>
             </div>
             <div className="col col-sm-12 col-md-2 lihat-semua">
-              <a href="#!" className="FlashSale-sub-header" alt="Lihat Semua">
+              <a href="#!" className="Blog-sub-header" alt="Lihat Semua">
                 Lihat Semua
               </a>
             </div>

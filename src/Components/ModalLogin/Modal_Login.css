@@ -21,13 +21,15 @@
 }
 
 .lupakatasandi {
+  width: 130px;
+  margin-bottom: 20px;
   border: none;
   color: #281e5a;
   border-radius: 5px;
   font-size: 16px;
   text-decoration: underline;
   display: inline-block;
-  text-align: center;
+  /* text-align: center;  */
   font-family: Karla, sans-serif;
   /* background-color: #fff; */
   background: #e6e6e6;
@@ -74,25 +76,25 @@
   margin-left: -20px;
 }
 
-/* .formu {
+.formu {
   margin-top: 25px;
   width: 20px;
   position: relative;
 } */
 
-/* .form-group {
+.form-group {
   width: 1px;
-} */
+}
 
-.form-control {
-  width: 300px;
+.modal-form-login {
+  width: 300px !important;
   margin-left: 15px;
   margin-top: 20px;
 }
 
-/* .dropdown-menu dropdown-menu-right {
+.dropdown-menu dropdown-menu-right {
   width: 200px;
-} */
+}
 .baris1 {
   width: 8rem;
   margin-left: 20px;
@@ -167,7 +169,7 @@ h6 {
   /* margin-bottom: -10rem; */
   margin-top: -30px;
 }
-.gambar1 {
+.gambar1-modal {
   height: 30px !important;
   width: 30px;
   margin-top: -6px;
@@ -178,7 +180,7 @@ h6 {
   margin-left: -2px;
   box-sizing: border-box;
 }
-.gambar2 {
+.gambar2-modal {
   height: 40px !important;
   width: 36px;
   margin-top: -10px;
@@ -190,5 +192,13 @@ h6 {
 
 .heading6 {
   margin-left: 20px;
+}
+
+.container.modal-login-container {
+  margin-left: 20px;
+}
+
+.form-control .modal-form-login{
+  border-bottom: 1px solid #eee;
 }
 

@@ -2,12 +2,31 @@ import React, { Component } from "react";
 import Cards from "../../Components/Cards/Cards";
 import AddModal from '../../Components/AddModal/AddModal'
 import "./AdminDash.css";
+import {Redirect} from 'react-router-dom'
 
 class AdminDash extends Component {
+
+  constructor(){
+    super()
+    this.state ={
+      admin: []
+    }
+  }
+
+
+
   render() {
+
+   
     return (
+      
       <>
-        <div className="pos-f-t">
+  {/* {this.state.admin.length === 0 ? 
+  <Redirect to='/' />  
+
+
+  : */}
+  <div className="pos-f-t">
           <div className="collapse" id="navbarToggleExternalContent">
             <div className="bg-info p-4">
               <h5 className="text-white h4">Please add product data carefully.</h5>
@@ -59,6 +78,9 @@ class AdminDash extends Component {
             </div>
           </div>
         </div>
+}
+
+        
       </>
     );
   }

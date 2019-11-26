@@ -1,5 +1,18 @@
-.Flashsale-header-parent-blog {
+.Blog-header-parent-blog {
   margin-bottom: 40px;
+}
+
+.Blog-header {
+  color: #513e71;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+
+  text-decoration: none;
+}
+.Blog-sub-header {
+  color: #e82864;
+  font-size: 16px;
 }
 .act-btn {
   background: black;
